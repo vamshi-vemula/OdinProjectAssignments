@@ -1,0 +1,151 @@
+* {
+    font-family: "Poppins",sans-serif,Roboto;
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    --bg-color:#ffebeb;
+    --primary:#f1bb88;
+}
+html, body {
+    width:100%;
+    background: var(--bg-color);
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    background: var(--primary);
+    padding: 20px 30px 20px 30px;
+}
+.nav-heading {
+    justify-content: flex-start;
+    width:20%;
+    color:black;
+    font-weight: 700;
+    font-size: 30px;
+}
+.nav-items {
+    display:flex;
+    justify-content: flex-end;
+    width:80%;
+    gap: 40px;
+}
+.nav-item {
+    color: black;
+    font-size: 18px;
+}
+
+.info-container {
+    display: flex;
+    padding: 20px 30px 20px 30px;
+    height: 50vh;
+    background: var(--primary);
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.info p {
+    font-size: 20px;
+    opacity: 0.6;
+}
+.info button {
+    background-color: var(--primary);
+    width: 150px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.info-img {
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+.info-img img {
+    width: 80%;
+    border-radius: 10%;
+}
+
+#menu {
+    text-align: center;
+    padding: 20px;
+}
+#menu h2 {
+    color: var(--primary);
+    font-weight: bolder;
+}
+.menu-container {
+    padding: 40px 20px 20px 20px;
+    display:flex;
+    gap:30px;
+    justify-content: space-evenly;
+}
+
+.menu-item img {
+    width:200px;
+    height: 200px;
+    border-radius: 10px;
+    flex:1;
+}
+.menu-item p {
+    margin-top:10px;
+}
+#reviews {
+    text-align: center;
+    padding:30px;
+}
+#reviews h2 {
+    color:var(--primary);
+}
+.review{
+    padding:30px;
+    padding-top:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.review p {
+    width:75%;
+    font-style: italic;
+}
+.review span {
+    align-self:flex-end;
+    margin-right: 10%;
+}
+
+#contact {
+    text-align: center;
+    padding: 30px;
+}
+#contact h2 {
+    color: var(--primary);
+}
+.contact-container {
+    display: flex;
+    padding: 30px;
+    padding-top:50px;
+    justify-content: space-evenly;
+}
+.contact-item img {
+    width: 25px;
+}
+.contact-item p {
+    margin-top:3px;
+}
+
+
+footer {
+    background: var(--primary);
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,91 @@
+* {
+    font-family: "Poppins",sans-serif,Roboto;
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    --bg-color: #fafafa;
+    --primary:#c17fea;
+}
+html, body {
+    width:100%;
+    background: var(--bg-color);
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-container {
+    background-image: url("assets/landing.jpg");
+    background-position: center;
+    background-size:cover;
+    width: 40%;
+}
+
+.heading {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.right-container {
+    width:60%;
+    padding: 30px;
+}
+
+.content {
+    margin-top:20px;
+    font-size: 22px;
+}
+
+.form-heading {
+    margin-top:45px;
+    font-size: 18px;
+    color: var(--primary);
+}
+
+.form-container {
+    margin-top:15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-element {
+    width:48%;
+    margin-top: 5px;
+}
+
+.form-element input {
+    margin-top:5px;
+    padding: 5px;
+    width:90%;
+}
+
+.form-element input:focus, .form-element input:active {
+    outline: none;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+}
+
+.register-btn {
+    margin-top:20px;
+    border: 5px solid var(--primary);
+    background: var(--primary);
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+    padding: 10px 20px;
+    box-shadow: 0 2px 2px 0px rgb(22, 22, 22);
+}
+
+.login-text {
+    margin-top:25px;
+    font-size: 18px;
+}
+
+.login-btn {
+    color: var(--primary);
+}
