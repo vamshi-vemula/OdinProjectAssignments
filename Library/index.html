@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Library</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Library</h1>
+        </header>
+        <div class="add-book-container">
+            <div class="addBookBtn">+ Add book</div>
+            <div class="clearAllBtn">Delete All Books</div>
+        </div>
+        <div class="books-grid">
+
+        </div>
+
+        <dialog id="add-book-dialog">
+            <form>
+                <div class="close-dialog">
+                    <p> x </p>
+                </div>
+                <p class="heading">Add new book</p>
+                <div class="dialog-input">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="title">
+                </div>
+                <div class="dialog-input">
+                    <label for="author">Author</label>
+                    <input type="text" id="author" name="author">
+                </div>
+                <div class="dialog-input">
+                    <label for="pages">Pages</label>
+                    <input type="number" id="pages" name="pages" min="0">
+                </div>
+                <div class="dialog-input">
+                    <p>Have you read it?</p>
+                    <input type="checkbox" name="read" checked>
+                </div>
+                <button type="button">Submit</button>
+            </form>
+        </dialog>
+        <script src="main.js"></script>
+    </body>
+</html>
